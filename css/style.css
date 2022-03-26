@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+}
+a{
+    color: inherit;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #0F0B30 0%, #152260 46.87%, #470e65 100%);
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 90%;
+}
+header{
+    color: #fff;
+    margin-top: 26px;
+}
+nav{
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+}
+.main-nav, .login-register-ul{
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+.nav-item:not(:last-child){
+    margin-right: 54px;
+}
+.login-register-item:not(:last-child){
+    margin-right: 26px;
+}
+.login-register-ul{
+    font-weight: 700;
+}
+.register{
+    border-radius: 50px;
+    border: 2px solid;
+    padding: 6px 22px;
+}
+.main-wrapper{
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+}
+.main-card{
+    height: 543px;
+    color: #fff;
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    line-height: 68px;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 98.2924px;
+    line-height: 147px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.description{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+.lets-go-btn{
+    width: 293px;
+    height: 72px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #fff;
+    margin-top: 41px;
+}
+.arrow-wrapper{
+    margin-top: 126px;
+}
+.arrow-wrapper svg{
+    cursor: pointer;
+}
